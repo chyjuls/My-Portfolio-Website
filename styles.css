@@ -1,0 +1,341 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	background: linear-gradient(to bottom,#21a82d,#1f6433);
+	margin: 50px 0 0 0;
+	padding: 0;
+	  }
+	  
+	
+
+
+.page-container {
+	min-height: 100vh;
+  }
+
+  main {
+	margin-top: 100px; /* adjust this value to increase or decrease the space */
+	padding: 80px; /* optional: add some padding to the content */
+  }
+  
+  
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+  /* Header styles */
+
+  header {
+	background-color:#9DC08B;
+	position: fixed;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 75px; /* adjust as needed */
+	 z-index: 999; /* ensures the header stays on top */
+
+}
+  .head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+	position: relative;
+  }
+  
+  
+  .logo-container img {
+	width: 180px;
+	height: 180px;
+	border: 2px solid #1d3d0c;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #395033;
+	margin-top: 100px;
+	margin-left: 20px;
+
+  }
+  
+  
+  .head-nav {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 20px;
+	top: 10%;
+	transform: translateY(-20%);
+}
+  .head-nav ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+  }
+  
+  .head-nav li {
+	margin: 0 10px;
+  }
+  
+  .head-nav a {
+	text-decoration: none;
+	color: #faf7f7;
+	font-weight: bold;
+	font-size: 18px;
+	margin-right: 20px;
+  }
+  
+  
+  .intro-box {
+	width: 600px;
+	background-color: #DDF7E3;
+	padding: 20px;
+	border: 2px solid #1d3d0c;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px #395033;
+	 padding: 20px;
+	 margin: 0 auto;
+	 text-align: justify;
+  }
+  
+.introduction{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	font-size: 20px;
+	font-family:cursive;
+	color:  #2E3840;
+	text-align: justify;
+	margin-bottom: 20px; /* add margin to create space */
+  }
+
+
+  h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 50px;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 36px;
+	color:  #fefbfb;
+	
+  }
+  
+
+  h2{text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-family: cursive;
+	font-size: 36px;
+	color:  #2E3840;
+
+
+  }
+	
+
+ h3, h4, h5, h6 {
+	font-weight: bold;
+	font-family: serif;
+	font-size: 12;
+	color: #fefbfb;
+	margin: 0;
+}
+
+  .hero-container {
+	
+	height: 400px; /* Adjust the height to fit your image */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2.5rem;
+	max-width: 68.75rem;
+	margin: auto;
+  }
+
+  .hero-text {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 18px;
+	padding-left: 10px;
+	text-align: justify;
+	padding-top:2.5px; /* add this property to pull the text up */
+	margin-bottom: 50px;
+
+	
+  }
+
+  
+  .bio-title h1 {
+	margin-top: 30px;
+	font-weight: bold;	
+	font-size: 40px;
+	color: #fefbfb;
+	text-align: justify;
+	padding-left: 40px;
+		
+  }
+
+
+.bio-text p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: #fdf9f9;
+    position: absolute;
+	left: 50%;
+	margin-top: 20px;
+	line-height: var(--line-height);
+	
+   
+	
+}
+
+.hero img {
+	height: 100%;
+	width: 75%;
+	padding-left: 10px;
+  }
+  
+  
+
+/* Main styles */
+
+section {
+	margin-bottom: 30px;
+}
+
+/* Button styles */
+button {
+	background-color: #ff9800;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ffac4d;
+}
+
+/* Footer styles */
+footer {
+	background-color:#112f08;
+	padding: 10px;
+	text-align: center;
+	height: 50px;
+}
+
+
+
+/* Page-specific styles */
+#index h2 {
+	color: #ff9800;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#profile h2 {
+	color: #ff9800;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+footer p {
+	margin-top: 30px;
+	font-size: 14px;
+}
+footer a {
+    margin-right: 10px;
+    font-size: 20px;
+    color:#15360b;
+	float: right;
+  }
+
+
+  footer a:hover {
+    color: #738995; /* Change the color of the icon on hover */
+  }
+  /* Style all font awesome icons */
+.fa {
+	padding: 10px;
+	font-size: 40px;
+	width: 30px;
+	text-align: right;
+	text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+	opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-linkedin {
+	background: #111111;
+	color: white;
+  }
+  
+  /* Twitter */
+  .fa-github {
+	background: #0e0e0e;
+	color: white;
+  } 
+
+  .fa-linkedin:before {
+    content: "\f08c"; /* Unicode for the LinkedIn icon */
+  }
+
+  /* Style for the GitHub icon */
+  .fa-github:before {
+    content: "\f09b"; /* Unicode for the GitHub icon */
+  }
+
+#projects h2 {
+	color: #ff9800;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#projects ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#projects li {
+	margin-bottom: 10px;
+}
+
+#projects li a {
+	color: #ff9800;
+	font-size: 18px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+	header h1 {
+		font-size: 24px;
+	}
+
+	nav li {
+		margin: 0 10px;
+	}
+
+	button {
+		font-size: 16px;
+		padding: 8px 16px;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
+}
